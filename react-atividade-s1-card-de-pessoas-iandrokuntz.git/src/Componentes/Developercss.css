@@ -1,0 +1,25 @@
+.DeveloperCard{
+    
+    border: 1px white solid;
+    border-radius: 10px;
+    margin: 30px;
+    width: 200px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    background: rgb(97,218,251);
+background: linear-gradient(90deg, rgba(97,218,251,1) 31%, rgba(127,163,212,1) 100%);
+color: black;
+}
+.DeveloperCard:hover{
+
+    filter: blur(0.7px);
+}
+.BoxCards{
+    
+    display: flex;
+    flex-direction: row;
+    padding: 20px 10px 0 10px;
+    
+}
+
