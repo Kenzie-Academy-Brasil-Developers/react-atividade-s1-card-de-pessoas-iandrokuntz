@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Developer from './Componentes/Developer';
 
@@ -18,23 +17,16 @@ function App() {
              }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+            <div>
+        
+                  <Developer name={Devs.Gabriel} age={idade.Gabriel} pais={pais.Gabriel}/>
 
-          <div className = "BoxCards">
-
-                <div className = "DeveloperCard">
-                  <Developer name={Devs.Gabriel} age={idade.Gabriel} country={pais.Gabriel}/>
-                </div>
-                <div className = "DeveloperCard">
-                  <Developer name={Devs.Filipe} age={idade.Filipe} country={pais.Filipe}/>
-                </div>
-                <div className = "DeveloperCard">
-                  <Developer name={Devs.Mariana} age={idade.Mariana} country={pais.Mariana}/>
-                </div>
+                  <Developer name={Devs.Filipe} age={idade.Filipe} pais={pais.Filipe}/>
+                
+                  <Developer name={Devs.Mariana} age={idade.Mariana} pais={pais.Mariana}/>
+                
             </div>
-          
-      </header>
+
     </div>
   );
 }
